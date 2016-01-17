@@ -49,8 +49,8 @@ sh test.sh file content.
 make
 sudo dmesg -C
 sudo insmod mp1.ko
-#cat /proc/mp1/status
-#echo 1 > /proc/mp1/status
+cat /proc/mp1/status
+echo 1 > /proc/mp1/status
 cat /proc/mp1/status
 ./userapp &
 ./userapp &
@@ -161,8 +161,8 @@ sh test.sh file content.
 make
 sudo dmesg -C
 sudo insmod mp1.ko
-#cat /proc/mp1/status
-#echo 1 > /proc/mp1/status
+cat /proc/mp1/status
+echo 1 > /proc/mp1/status
 cat /proc/mp1/status
 ./userapp &
 ./userapp &
@@ -271,8 +271,8 @@ sh test.sh file content.
 make
 sudo dmesg -C
 sudo insmod mp1.ko
-#cat /proc/mp1/status
-#echo 1 > /proc/mp1/status
+cat /proc/mp1/status
+echo 1 > /proc/mp1/status
 cat /proc/mp1/status
 ./userapp &
 ./userapp &
